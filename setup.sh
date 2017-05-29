@@ -6,4 +6,9 @@ apt-get install -y python-pip python-dev
 apt-get install -y sysstat
 # Installing git client
 apt-get install -y git
+# Clonning repository
 git clone https://github.com/luballe/linux_monitoring_log
+# Change permissions over the shell script
+chmod 755 linux_monitoring_log/monitoring.sh
+# Run it for one minute
+./linux_monitoring_log/monitoring linux_monitoring_log/log.txt
