@@ -6,4 +6,4 @@ apt-get install -y python-pip python-dev
 apt-get install -y sysstat
 # Installing git client
 apt-get install -y git
-git clone https://github.com/luballe/monitoring.git
+git clone https://github.com/luballe/linux_monitoring_log
