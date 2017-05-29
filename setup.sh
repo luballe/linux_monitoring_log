@@ -11,4 +11,5 @@ git clone https://github.com/luballe/linux_monitoring_log
 # Change permissions over the shell script
 chmod 755 linux_monitoring_log/monitoring.sh
 # Run it for one minute. The resulting log will be at the repository folder
+echo "Registering system log on linux_monitoring_log/log.txt"
 ./linux_monitoring_log/monitoring.sh linux_monitoring_log/log.txt
