@@ -4,7 +4,7 @@
 #Crontab:
 #* * * * * /home/<username>/monitoring.sh /home/<username>/log.txt
 
-#logPath="/home/ec2-user/log.txt"
+#logPath="/home/<username>/log.txt"
 
 # Get log path from the first parameter
 logPath=$1
