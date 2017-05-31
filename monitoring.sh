@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #Crontab:
 #* * * * * /home/<username>/monitoring.sh /home/<username>/log.txt
 
